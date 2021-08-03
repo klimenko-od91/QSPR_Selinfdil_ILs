@@ -2,8 +2,8 @@
 This repository contains an archive with scripts and data files that are needed to reproduce the QSPR model development, validation and virtual screening for Selectivity at infinite dilution of ionic liquids. The repository is created by demand from Journal of cheminformatics.
 
 The scripts that belong to the same cross-validation (CV) scheme and Property type (log10 [S] OR big IDAC flag) must be run sequentially.
-The CV split scripts are differentiated with 80,50,20 suffices
-The property scripts either have BIDAC prefixfor big IDAC flag modeling or no prefix at all in case of log10 [S] modeling.
+The CV split scripts are differentiated with 80,50,20 suffices.
+The property scripts either have BIDAC prefix for big IDAC flag modeling or no prefix at all in case of log10 [S] modeling.
 
 -------------------------------------------The example of running sequential scripts for 80% CV split in log10 [S] modeling------------------------------------------------------
 
@@ -15,7 +15,7 @@ The applicability domain scripts are the same for all schemes. There is one for 
 
 --------------------------------------------Virtual screening with the best models-----------------------------------------------------------------------------------------------
 
-comblib_development_andod.R is used to make a Combinatorial library of Ionic liquids for virtual screening and append molecular descriptors for the Solute (aniline) and the raffinate (n-dodecane)
-Next, comblib_prediction_server_andod.R is used to predict the log10 [S] of Combinatorial library for aniline/n-dodecane system
-comblib_prediction_server_BIDAC_andod.R is used to predict the big IDAC flag of Combinatorial library for aniline/n-dodecane system
+comblib_development_andod.R is used to make a Combinatorial library of Ionic liquids for virtual screening and append molecular descriptors for the Solute (aniline) and the raffinate (n-dodecane).
+Next, comblib_prediction_server_andod.R is used to predict the log10 [S] of Combinatorial library for aniline/n-dodecane system.
+comblib_prediction_server_BIDAC_andod.R is used to predict the big IDAC flag of Combinatorial library for aniline/n-dodecane system.
 The applicability domain assessment is done using AD_calculation_andod.R
