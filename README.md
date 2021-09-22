@@ -9,13 +9,14 @@ The property scripts either have BIDAC prefix for big IDAC flag modeling or no p
 
 First, Selectivity_QSPR_server_80.R script must be executed in order to build models and get training set and CV results.
 Next, Selectivity_prediction_server_80.R script is run to predict optimization set. Then, use test_set_stat_80.R script to get the optimization set statistics for all models and get training set and CV results for the best model according to the decision function. Test set prediction is done using Selectivity_prediction_external_80.R script.
-After that, use external_test_stats_80.R to get the statistical assessment for the external test set.
+After that, use external_test_stats_80.R to get the statistical assessment for the external test set. 
+
+IDAC flag models must be made after the log10 [S] modeling.
 
 The applicability domain scripts are the same for all schemes. There is one for the optimization set (AD_calculation.R) and one for the test set (AD_calculation_external.R).
+The applicability domain of the particular set (test, external test or combinatorial library) must be calculated before the  prediction is made.
 
 --------------------------------------------Virtual screening with the best models-----------------------------------------------------------------------------------------------
-
-comblib_development_andod.R is used to make a Combinatorial library of Ionic liquids for virtual screening and append molecular descriptors for the Solute (aniline) and the raffinate (n-dodecane).
 Next, comblib_prediction_server_andod.R is used to predict the log10 [S] of Combinatorial library for aniline/n-dodecane system.
 comblib_prediction_server_BIDAC_andod.R is used to predict the big IDAC flag of Combinatorial library for aniline/n-dodecane system.
 The applicability domain assessment is done using AD_calculation_andod.R
