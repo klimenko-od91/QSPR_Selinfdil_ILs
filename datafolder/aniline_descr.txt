@@ -1,0 +1,2 @@
+id	logP	Atom count	Molecular weight	molecular	Aliphatic atom count	Aromatic atom count	Polar surface area	donorcount	acceptorcount	Refractivity	Bond count	Fused ring count	Chain atom count	Balaban index	Rotatable bond count	Smallest ring size	Ring count
+1	1.14	14	93.129	10.29	1	6	26.02	1	1	30.76	14	0	1	1.82	0	6	1

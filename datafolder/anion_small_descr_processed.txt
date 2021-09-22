@@ -1,0 +1,13 @@
+name	SMILES	logP	Atom count	Molecular weight	molecular	Aliphatic atom count	Aromatic atom count	Polar surface area	donorcount	acceptorcount	Refractivity	Bond count	Fused ring count	Chain atom count	Balaban index	Rotatable bond count	Smallest ring size	Ring count
+[ClO4]	O=[Cl-](=O)(=O)=O	-0.1	5	99.45	5.23	5	0	74.27	0	4	11.91	4	0	5	3.02	0	0	0
+bis(fluorosulfonyl)imide	FS(=O)(=O)[N-]S(F)(=O)=O	-0.86	9	180.12	10.54	9	0	77.51	0	5	22.79	8	0	9	3.75	0	0	0
+[FSI]	FS(=O)(=O)[N-]S(F)(=O)=O	-0.86	9	180.12	10.54	9	0	77.51	0	5	22.79	8	0	9	3.75	0	0	0
+NTF2	FC(F)(F)S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F	2.17	15	280.14	14.25	15	0	77.51	0	5	31.33	14	0	15	4.89	2	0	0
+CL	[Cl-]	0.61	1	35.45	2.39	1	0	0	0	0	5.62	0	0	1	0	0	0	0
+DCA	N#C[N-]C#N	-0.23	5	66.044	5.04	5	0	56.81	0	3	16.01	4	0	5	2.19	0	0	0
+BF4	F[B-](F)(F)F	-1.13	5	86.8	3.55	5	0	0	0	0	6.01	4	0	5	3.02	0	0	0
+SCN	[S-]C#N	0.85	3	58.08	4.79	3	0	17.07	0	1	14.38	2	0	3	1.63	0	0	0
+CCN3	N#C[C-](C#N)C#N	-0.42	7	90.066	7.42	7	0	71.37	0	3	21.49	6	0	7	2.99	0	0	0
+PF6	F[P-](F)(F)(F)(F)F	2.03	7	144.965	6	7	0	0	0	0	14.21	6	0	7	4.43	0	0	0
+PO2-8I,8I	CC(CC(C)(C)C)CP([O-])(=O)CC(C)CC(C)(C)C	4.52	53	289.42	34.38	19	0	40.13	0	2	83.75	52	0	19	4.31	8	0	0
+BR	[Br-]	0.8	1	79.905	3.36	1	0	0	0	0	8.6	0	0	1	0	0	0	0
