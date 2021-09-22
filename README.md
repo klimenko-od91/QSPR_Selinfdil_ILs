@@ -17,6 +17,6 @@ The applicability domain scripts are the same for all schemes. There is one for 
 The applicability domain of the particular set (test, external test or combinatorial library) must be calculated before the  prediction is made.
 
 --------------------------------------------Virtual screening with the best models-----------------------------------------------------------------------------------------------
-Next, comblib_prediction_server_andod.R is used to predict the log10 [S] of Combinatorial library for aniline/n-dodecane system.
+comblib_development_andod.R is used to make a Combinatorial library of Ionic liquids for virtual screening and append molecular descriptors for the Solute (aniline) and the raffinate (n-dodecane). Next, comblib_prediction_server_andod.R is used to predict the log10 [S] of Combinatorial library for aniline/n-dodecane system.
 comblib_prediction_server_BIDAC_andod.R is used to predict the big IDAC flag of Combinatorial library for aniline/n-dodecane system.
 The applicability domain assessment is done using AD_calculation_andod.R
