@@ -4,6 +4,7 @@ This repository contains an archive with scripts and data files that are needed 
 The scripts that belong to the same cross-validation (CV) scheme and Property type (log10 [S] OR big IDAC flag) must be run sequentially.
 The CV split scripts are differentiated with 80,50,20 suffices.
 The property scripts either have BIDAC prefix for big IDAC flag modeling or no prefix at all in case of log10 [S] modeling.
+the datasets.rar archive files must be extracted to the datafolder before modeling starts.
 
 -------------------------------------------The example of running sequential scripts for 80% CV split in log10 [S] modeling------------------------------------------------------
 
